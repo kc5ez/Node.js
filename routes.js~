@@ -1,5 +1,5 @@
 module.exports = function(app){
     var handlers = require('./handlers');
     app.get('/', handlers.index);
-	app.get('/hello', handlers.hello);
+	app.get('/pilates', handlers.pilates);
 }
