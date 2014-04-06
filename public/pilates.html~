@@ -1,28 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pilates</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Ke's Page</title>
+
+<link rel = "stylesheet" href = "stylesheet.css" />
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
     </head>
     <body>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/kecheng">Ke Cheng</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/pilates">Pilates</a></li>
+              <li><a href="/pinterless">Pinterless</a></li>
+            </ul>
+           
+           
+          </div><!-- /.navbar-collapse -->
+ <!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<div class = "jumbotron">
+	<h3>
+	  My pilates: 
+	  </h3>
+	<p>
+	I gotta say that I really hate going to the gym and bobbing up and down on hours on the elliptical and running in one place on end on a treadmill. I have fancied at one time or another to try the actual machines (because God knows I have no arm muscle or core strength), but the big, bulky strapping guys at the machines freak me out too much. I always wanted to try yoga, but I guess yoga was too "sissy" for me. The solution? PILATES. Pilates includes the cardio, the flexibility, the toning, and the strength building. Best of all, I didn't have to buy any equipment except a mat. It's extremely easy to take a break from homework, roll out my mat, and follow these videos for 10 to 20 minutes and feel like I just got a great workout. Try it!
+	</p>
+<p> <a class = "btn btn-primary btn-lg" role="button">Learn more</a></p>
+</div>
+
         <div class="content">
 	  <h4>Pilates workouts: </h4>
             <% if (id != undefined) {%>
             <iframe width="640" height="360" src="<%= id%>" frameborder="0" allowfullscreen></iframe>
 	    
             <% } else { %>
+	    <br><br>
 	    <p>Next on my todo: </p>
             <iframe width="640" height="360" src="//www.youtube.com/embed/qOdEVngUs-c" frameborder="0" allowfullscreen></iframe>
-	    <p>My first pilates:</p>
+	    <br><br>
+	  <p>My first pilates:</p>
 <iframe width="640" height="360" src="//www.youtube.com/embed/tUVvec3z-mo?list=PLSCcAGyv98ieqMkQH_q5T_gazNVxEcZew" frameborder="0" allowfullscreen></iframe>
+<br><br>
 <p>Favorite pilates video:</p>
  <iframe width="640" height="360" src="//www.youtube.com/embed/xDpB8pWEjhk" frameborder="0" allowfullscreen></iframe>
+<br><br>
 <p>When I have alot of time: </p>
 <iframe width="640" height="360" src="//www.youtube.com/embed/lMnY5jAlp6Y" frameborder="0" allowfullscreen></iframe>
 
             <% } %>
         </div>
-    </body>
 
-    
-</html>
+
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container-fluid">
+        
+       
+
+      
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+      <script src="//cdnjs.cloudflare.com/ajax/libs/holder/2.3.0/holder.js"></script>
+    </body>
+    </html>
+

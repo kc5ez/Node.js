@@ -19,4 +19,8 @@ pinSchema.statics.findByTitle = function (title, cb){
     this.find({title: new RegExp(title, 'i')}, cb)
 }
 
+pinSchema.methods.delete = function(title, cb){
+    this.remove({title:title});
+}
+
 var Pin = mongoose.model('Pin', pinSchema)

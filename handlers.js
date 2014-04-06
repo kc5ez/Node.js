@@ -12,6 +12,12 @@ exports.pilates = function(req, res){
 	})
 }
 
+exports.kecheng = function(req, res){
+	res.render('kecheng', function(err, html){
+		res.send(html);
+	})
+}
+
 exports.pinterless = function(req, res) {
     console.log("Query: " + req.query);
     
@@ -51,3 +57,5 @@ exports.createPin = function(req, res) {
     });	
 
 }
+
+
