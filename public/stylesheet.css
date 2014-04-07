@@ -12,6 +12,15 @@ iframe{
     margin-right: auto;
 }
 
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid;
+	opacity: 1;
+	
+}
+
 html{
     background-color: #FF6666;
 }
