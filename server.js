@@ -14,7 +14,7 @@ var uristring = process.env.MONGOLAB_URI ||
 
 app.use(express.static(path.normalize(__dirname) + '/public'))
 
-app.set('views', path.normalize(__dirname) + '/public');
+app.set('views', path.normalize(__dirname) + '/public/html');
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 
@@ -26,10 +26,12 @@ app.use(app.router);
 
 require('./routes')(app);
 
-mongoose.connect(uristring, function(err, res){
+console.log("Trying to connect");
+mongoose.connect(uristring, function(err){
     if (err){
 	console.log("Error: " + err
-		   ); }else{
+		   ); 
+	}else{
 		       console.log("Successfully connected to mongodb at url: " + uristring);
 		       var port = Number(process.env.PORT || 8000);
 		       app.listen(port);
