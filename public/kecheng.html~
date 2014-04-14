@@ -43,7 +43,33 @@
             </ul>
            
            
-         
+          </div><!-- /.navbar-collapse -->
+ <!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<div class = "jumbotron">
+	<h1>
+	  Ke Cheng
+	  </h1>
+	<p>
+	  Living life simply, happily, bubbliy. 
+	</p>
+<p> <a class = "btn btn-primary btn-lg" role="button">Learn more</a></p>
+</div>
+
+<p>
+  Hey there ;) <br>
+  Yes, I just gave you a wink. Yes, I just made up the word "bubbily". 
+  <br><br>
+</p>
+<img src = "http://i1120.photobucket.com/albums/l482/kichingxx/35a1268b-c308-4ad8-98af-e733beaaec68_zpsc24597d3.jpg">
+<p>
+  Honestly, I don't know what I'm up to, but I know its no good. I took this class called "web development with Node.js" with a friend, and then she bailed on me (Krystal if you are reading this YOU OWE ME BIG TIME for leaving me hanging!). And now I am here making a personal webpage. The instructor told us to be as creative as possible, and to make it something of our own, and brag about it in our future interview! And WOW! That sounded like fun! Except..... I'm not interesting at all. I'm your typical college girl who sleeps too late, gets up too early, puts too many products on my hair, watches bad reality TV shows, scours Pinterest, take selfies on Instagram, and...wants to do some good in this world. <br><br>
+
+So I let this project sit in the backburner for a while because, well, Node.js BLOWS MY MIND. Oh, and also I just don't know what kind of cool things I would put here. And then my wheels really started to turn and I had all these ideas. I want to share my experiences, my stories, my cooking recipes, my lifestyle hacks, and thoughts and views. Hopefully at the end of all of this, this will be a candid reflection of who I am, and if I do keep this up (which I really hope to do), it will be a testament to my growth as a person. I hope I can be honest and brave enough to share things I've learned from failures and successes, and hopefully get some good insight on life so that me, and those few to read this will feel inspired to do good, and feel good (because Lord knows we need all the good, happy people in this world we can get). <br><br>
+
+Disclaimer: I am sooooooo not perfect. I will never be perfect neither, so don't think I'm some goody-two shoes. No, I am not going to solve world hunger, eliminate evil and cure cancer. This is just a personal project that shows the good, the bad, and the ugly of one human being on this earth (aka me :) ).
+</p>
+       
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
