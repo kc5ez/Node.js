@@ -1,26 +1,46 @@
+body{
+	background-image:url('http://24.media.tumblr.com/6e892a2efd344aea4847c52e8cd3c557/tumblr_mxyza98bDl1rs4k52o1_1280.jpg');
+	background-size: 100%;
+}
+
+div.transbox{
+	width: 25%;
+	height: 100%;
+	background-color: #ffffff;
+	opacity: 0.75;
+}
+
 p{
-    font-family: Calibri;
-    margin: auto;
-    text-align: left;
-    padding-left: 150px;
-    padding-right: 150px;
+	font-size: 75px;
+	font-family: sans-serif;
 }
 
-iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+ul{
+	font-size: 25px;	
+	list-style-type:none;
+	display:block;
+	color:#CC0066;
+	text-decoration:none;	
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:25px;
+	padding-left:25px;
 }
 
-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border:2px solid;
-	opacity: 1;
-	
+a:link, a:visited{
+	display:block;
+	color:#CC0066;
+	text-decoration:none;
 }
 
-html{
-    background-color: #FF6666;
+a:hover, a:active{
+ color:#585858;	
+}
+
+li{
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:25px;
+	padding-left:25px;
+
 }

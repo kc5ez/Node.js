@@ -1,0 +1,60 @@
+div.transbox{
+	width: 25%;
+	height: 100%;
+	background-color: #ffffff;
+	opacity: 0.75;
+}
+
+p.head {
+	font-size: 75px;
+	font-family: sans-serif;
+}
+
+h3{
+font-family: sans-serif;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom:0;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+p.blurb{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom:20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+ul{
+	font-size: 25px;	
+	list-style-type:none;
+	display:block;
+	color:#CC0066;
+	text-decoration:none;	
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:0;
+	padding-left:10px;
+}
+
+a:link, a:visited{
+	display:block;
+	color:#CC0066;
+	text-decoration:none;
+}
+
+a:hover, a:active{
+	 color:#585858;	
+}
+
+li{
+	padding-top:25px;
+	padding-bottom:10px;
+	padding-right:0px;
+	padding-left:0px;
+
+}
