@@ -6,4 +6,16 @@ exports.kecheng = function(req, res){
 	res.render('kecheng', function(err, html){
 		res.send(html);
 	})
+}
 
+exports.aboutme = function(req, res){
+	res.render('aboutme', function(err, html){
+		res.send(html);
+	})
+}
+
+exports.aboutme = function(req, res){
+	res.render('eating', function(err, html){
+		res.send(html);
+	})
+}

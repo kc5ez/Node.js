@@ -11,7 +11,7 @@
 <div id = "wrap">
 	<div class = "container">
 		<div class = "row">
-		<h1> ke cheng</h1>
+		<p class = "head"> <a href = "kecheng.html">ke cheng</a><p>
 		</div>
 
 		<div class = "row">
@@ -21,18 +21,18 @@
 		
 </div>	
 		<ul>
-		<li> <a href="kecheng.html"> About </a></li>
-	<li> <a href = "kecheng.html"> Eating </a></li>
-	<li> <a href = "kecheng.html"> Life </a> </li>
-	<li> <a href = "kecheng.html"> Thoughts </a></li>
-	<li> <a href = "kecheng.html"> Random </a></li>
+		<li>  about </li>
+	<li> <a href = "eating.html"> eating </a></li>
+	<li> <a href = "kecheng.html"> adventures </a> </li>
+	<li> <a href = "kecheng.html"> thoughts </a></li>
+	<li> <a href = "kecheng.html"> random </a></li>
 		</ul>	
 		</div>
 		
 	<div class = "row">
 		<div class = "col-md-5 col-md-offset-3" id = "blurb">
 			<h3> About Me: </h3>
-			<p>
+			<p class = "blurb">
 			Hi, my name is Ke. I'm a student at the University of Virginia, studying computer science. I like to cook, eat and take selfies (if you can't tell already).  		
 			</p>		
 		</div>

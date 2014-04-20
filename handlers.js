@@ -13,3 +13,9 @@ exports.aboutme = function(req, res){
 		res.send(html);
 	})
 }
+
+exports.eating = function(req, res){
+	res.render('eating', function(err, html){
+		res.send(html);
+	})
+}

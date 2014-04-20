@@ -3,4 +3,5 @@ module.exports = function(app){
     app.get('/', handlers.index);
 	app.get('/kecheng', handlers.kecheng);
 	app.get('/aboutme', handlers.aboutme);
+	app.get('/eating', handlers.eating);
 }

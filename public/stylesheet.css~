@@ -1,6 +1,6 @@
 body{
-	background-image:url('http://24.media.tumblr.com/6e892a2efd344aea4847c52e8cd3c557/tumblr_mxyza98bDl1rs4k52o1_1280.jpg');
-	background-size: 100%;
+	background:url('http://24.media.tumblr.com/6e892a2efd344aea4847c52e8cd3c557/tumblr_mxyza98bDl1rs4k52o1_1280.jpg') no-repeat;
+	background-size: 100% 100%;
 }
 
 div.transbox{
@@ -34,7 +34,7 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
- color:#585858;	
+	 color:#585858;	
 }
 
 li{
