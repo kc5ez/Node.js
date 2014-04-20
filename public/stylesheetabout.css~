@@ -11,10 +11,10 @@ p.head {
 }
 
 h3{
-font-family: sans-serif;
+	font-family: sans-serif;
 	text-align: center;
 	padding-top: 0px;
-	padding-bottom:20px;
+	padding-bottom:0;
 	padding-left: 200px;
 	padding-right: 200px;
 }
