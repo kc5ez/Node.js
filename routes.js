@@ -4,4 +4,7 @@ module.exports = function(app){
 	app.get('/kecheng', handlers.kecheng);
 	app.get('/aboutme', handlers.aboutme);
 	app.get('/eating', handlers.eating);
+	app.get('/adventures', handlers.adventures);
+	app.get('/thoughts', handlers.thoughts);
+	app.get('/likes', handlers.likes);
 }

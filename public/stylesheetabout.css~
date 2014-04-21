@@ -10,6 +10,12 @@ p.head {
 	font-family: sans-serif;
 }
 
+#youtube{
+	float: right;
+	width: 300px;
+	padding-right: 500px;
+}
+
 h3{
 	font-family: sans-serif;
 	text-align: center;
@@ -18,11 +24,16 @@ h3{
 	padding-left: 200px;
 	padding-right: 200px;
 }
+ 
+h4{
+	text-alignt: right;
+	float: right;
+}
 
 p.blurb{
 	font-size: 20px;
 	font-family: sans-serif;
-	text-align: center;
+	text-align: left;
 	padding-top: 0px;
 	padding-bottom:20px;
 	padding-left: 200px;

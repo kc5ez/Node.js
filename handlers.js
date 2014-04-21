@@ -19,3 +19,21 @@ exports.eating = function(req, res){
 		res.send(html);
 	})
 }
+
+exports.adventures = function(req, res){
+	res.render('adventures', function(err, html){
+		res.send(html);
+	})
+}
+
+exports.thoughts = function(req, res){
+	res.render('thoughts', function(err, html){
+		res.send(html);
+	})
+}
+
+exports.likes = function(req, res){
+	res.render('likes', function(err, html){
+		res.send(html);
+	})
+}
