@@ -21,3 +21,25 @@ pinSchema.statics.findByTitle = function(title, cb) {
 }
 
 var Pin = mongoose.model('Pin', pinSchema)
+
+var foodSchema = mongoose.Schema({
+		title: String, 
+		description: String,
+		image_url: String,
+		date: {
+			type: Date, 
+			default: Date.now		
+		}
+});
+
+foodSchema.methods.print_out = function() {
+	var output = JSON.stringify(this);
+	console.log(output);
+	return output;
+}
+
+pinSchema.statics.findByTitle = function(title, cb) {
+	this.find({ title: new RegExp(title, 'i')}, cb)
+}
+
+var Food = mongoose.model('Food', foodSchema)

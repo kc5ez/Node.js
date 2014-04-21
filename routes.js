@@ -9,4 +9,5 @@ module.exports = function(app){
 	app.get('/pinterless', handlers.pinterless);
 
 	app.post('/pinterless', handlers.createPin);
+	app.post('/eating', handlers.createFood);
 }
