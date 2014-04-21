@@ -11,21 +11,21 @@
 <div id = "wrap">
 	<div class = "container">
 		<div class = "row">
-		<p class = "head"> <a href = "kecheng.html">ke cheng</a> | diary </p>
+		<p class = "head"> <a href = "/kecheng">ke cheng</a> | diary </p>
 		</div>
 
 		<div class = "row">
 
 		<div class = "col-md-5 col-md-offset-3">
-			<img src = "https://scontent-b-iad.xx.fbcdn.net/hphotos-prn2/v/t34.0-12/10287311_783022791710357_378756237_n.jpg?oh=fea9caf69607dd1a3a4aefb72cdd4761&oe=53567E95" style="float:right; width:300px; height: full ;padding-right: 500px; padding-bottom: 0;">
+			<img src = "https://scontent-b-iad.xx.fbcdn.net/hphotos-prn2/v/t34.0-12/10287311_783022791710357_378756237_n.jpg?oh=fea9caf69607dd1a3a4aefb72cdd4761&oe=53567E95" style="float:right; width:500px; height: full ;padding-right: 500px; padding-bottom: 0;">
 		
 </div>	
 		<ul>
-		<li> <a href = "aboutme.html"> about </a></li>
-	<li><a href = "eating.html">  eating </a></li>
-	<li><a href = "adventures.html"> adventures </a></li>
+		<li> <a href = "/aboutme"> about </a></li>
+	<li><a href = "/eating">  eating </a></li>
+	<li><a href = "/adventures"> adventures </a></li>
 	<li> diary </li>
-	<li> <a href = "likes.html"> likes </a></li>
+	<li> <a href = "/pinterless"> likes </a></li>
 		</ul>	
 		</div>
 		
