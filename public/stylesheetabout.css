@@ -8,6 +8,7 @@ div.transbox{
 p.head {
 	font-size: 75px;
 	font-family: sans-serif;
+	padding-bottom: 0;
 }
 
 #youtube{
@@ -34,6 +35,16 @@ p.blurb{
 	font-size: 20px;
 	font-family: sans-serif;
 	text-align: left;
+	padding-top: 0px;
+	padding-bottom:20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+p.links{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
 	padding-top: 0px;
 	padding-bottom:20px;
 	padding-left: 200px;

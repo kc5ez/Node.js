@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Ke's Page </title>
+<title> ke's age | about </title>
 <link rel = "stylesheet" href="css/bookstra.min.css" type = "text/css">
 <link rel = "stylesheet" href= "stylesheetabout.css" type = "text/css"/>
 <script src = "js/booktstrap.min.js"></script>
@@ -11,7 +11,7 @@
 <div id = "wrap">
 	<div class = "container">
 		<div class = "row">
-		<p class = "head"> <a href = "kecheng.html">ke cheng</a><p>
+		<p class = "head"> <a href = "kecheng.html">ke cheng</a> | about<p>
 		</div>
 
 		<div class = "row">
@@ -34,7 +34,12 @@
 			<h3> About Me: </h3>
 			<p class = "blurb">
 			Hi, my name is Ke. I'm a student at the University of Virginia, studying computer science. I like to cook, eat and take selfies (if you can't tell already).  		
-			</p>		
+			</p>
+			<h3> Connect with me! </h3>
+			<p class = "links">			
+			<a href="http://www.linkedin.com/pub/ke-cheng/90/387/43"> LinkedIn </a>
+			<a href = "http://instagram.com/ke_cheng#"> Instagram </a>	
+			</p>
 		</div>
 	</div>	
 	</div>

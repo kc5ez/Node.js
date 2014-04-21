@@ -13,7 +13,7 @@ p.head {
 #youtube{
 	float: right;
 	width: 300px;
-	padding-right: 500px;
+	padding-right: 600px;
 }
 
 h3{
@@ -34,6 +34,16 @@ p.blurb{
 	font-size: 20px;
 	font-family: sans-serif;
 	text-align: left;
+	padding-top: 0px;
+	padding-bottom:20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+p.links{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
 	padding-top: 0px;
 	padding-bottom:20px;
 	padding-left: 200px;

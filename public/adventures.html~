@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> ke's page | eating </title>
+<title> ke's page | adventures </title>
 <link rel = "stylesheet" href="css/bookstra.min.css" type = "text/css">
 <link rel = "stylesheet" href= "stylesheetabout.css" type = "text/css"/>
 <script src = "js/booktstrap.min.js"></script>
@@ -11,7 +11,7 @@
 <div id = "wrap">
 	<div class = "container">
 		<div class = "row">
-		<p class = "head"> <a href = "kecheng.html">ke cheng</a><p>
+		<p class = "head"> <a href = "kecheng.html">ke cheng</a> | adventures <p>
 		</div>
 
 		<div class = "row">
@@ -26,7 +26,7 @@
 	<li><a href = "eating.html">  eating </a></li>
 	<li> adventures </li>
 	<li> <a href = "thoughts.html"> diary </a></li>
-	<li>  likes </li>
+	<li> <a href = "likes.html"> likes </a></li>
 		</ul>	
 		</div>
 		
@@ -34,7 +34,7 @@
 		<div class = "col-md-5 col-md-offset-3" id = "blurb">
 			<h3> First post! <br> April 20th, 2014</h3>
 			<p class = "blurb">
-			
+			I'm in wander-lust the majority of the time. Here is a space for me to keep track of pictures and stories from places I've been. 
 			</p>		
 		</div>
 	</div>	
