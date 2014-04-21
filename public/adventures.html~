@@ -22,11 +22,11 @@
 </div>	
 	
 		<ul>
-		<li> <a href = "aboutme.html"> about </a></li>
-	<li><a href = "eating.html">  eating </a></li>
+		<li> <a href = "/aboutme"> about </a></li>
+	<li><a href = "/eating">  eating </a></li>
 	<li> adventures </li>
-	<li> <a href = "thoughts.html"> diary </a></li>
-	<li> <a href = "likes.html"> likes </a></li>
+	<li> <a href = "/thoughts"> diary </a></li>
+	<li> <a href = "/pinterless"> likes </a></li>
 		</ul>	
 		</div>
 		
@@ -34,7 +34,8 @@
 		<div class = "col-md-5 col-md-offset-3" id = "blurb">
 			<h3> First post! <br> April 20th, 2014</h3>
 			<p class = "blurb">
-			I'm in wander-lust the majority of the time. Here is a space for me to keep track of pictures and stories from places I've been. 
+			I'm in wander-lust the majority of the time. Here is a space for me to keep track of pictures and stories from places I've been. <br><br>
+			This particular gem of a picture was taken in Grand Cayman Island. That lucky stingray got a kiss from me. 
 			</p>		
 		</div>
 	</div>	

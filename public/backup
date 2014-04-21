@@ -76,22 +76,21 @@
     </body>
     </html>
 
-body{
-	background-image:url('http://24.media.tumblr.com/6e892a2efd344aea4847c52e8cd3c557/tumblr_mxyza98bDl1rs4k52o1_1280.jpg');
-}
 
 
+<div class = "sidestuff"">
+	<p> ke cheng </p>
 
-body{
-	background-image:url('http://24.media.tumblr.com/6e892a2efd344aea4847c52e8cd3c557/tumblr_mxyza98bDl1rs4k52o1_1280.jpg');
-}
-
-div.transbox{
-	width: 200px;
-	height: 100px;
-	background-color: #ffffff;
-	opacity: 0.5;
-}
+	
+	<img src = "https://scontent-b-iad.xx.fbcdn.net/hphotos-prn1/v/t34.0-12/10261823_782768485069121_2041094443_n.jpg?oh=c3b2284666d2334e1e494ad96488ad65&oe=53563E76" style="float:right; width:300px; padding-right: 500px">
+	<ul>
+	<li> <a href="kecheng.html"> About </a></li>
+	<li> <a href = "kecheng.html"> Eating </a></li>
+	<li> <a href = "kecheng.html"> Life </a> </li>
+	<li> <a href = "kecheng.html"> Thoughts </a></li>
+	<li> <a href = "kecheng.html"> Random </a></li>
+	</u/>
+</div>
 
 
 

@@ -6,5 +6,7 @@ module.exports = function(app){
 	app.get('/eating', handlers.eating);
 	app.get('/adventures', handlers.adventures);
 	app.get('/thoughts', handlers.thoughts);
-	app.get('/likes', handlers.likes);
+	app.get('/pinterless', handlers.pinterless);
+
+	app.post('/pinterless', handlers.createPin);
 }

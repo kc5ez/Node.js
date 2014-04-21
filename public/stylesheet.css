@@ -22,7 +22,6 @@ ul{
 	display:block;
 	color:#CC0066;
 	text-decoration:none;	
-	padding-top:25px;
 	padding-bottom:25px;
 	padding-right:25px;
 	padding-left:25px;
@@ -39,8 +38,7 @@ a:hover, a:active{
 }
 
 li{
-	padding-top:25px;
-	padding-bottom:25px;
+	padding-bottom:40px;
 	padding-right:25px;
 	padding-left:25px;
 

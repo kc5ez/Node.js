@@ -10,11 +10,11 @@
 	<p> ke cheng </p>
 
 	<ul>
-	<li> <a href="aboutme.html"> about </a></li>
-	<li> <a href = "eating.html"> eating </a></li>
-	<li> <a href = "adventures.html"> adventures </a> </li>
-	<li> <a href = "thoughts.html"> diary </a></li>
-	<li> <a href = "likes.html"> likes </a></li>
+	<li> <a href="/aboutme"> about </a></li>
+	<li> <a href = "/eating"> eating </a></li>
+	<li> <a href = "/adventures"> adventures </a> </li>
+	<li> <a href = "/thoughts"> diary </a></li>
+	<li> <a href = "/pinterless"> likes </a></li>
 	</u/>
 </div>
 </div>
